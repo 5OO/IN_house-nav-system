@@ -1,14 +1,22 @@
 package com.navisys.in_housenavsystem.model;
 
-import lombok.Data;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import lombok.*;
+
 
 import java.util.UUID;
 
-@Data
+
+@Entity
+@Getter
+@Setter
 public class BaseStation {
+    @Id
     private UUID id;
     private String name;
     private Float x;
     private Float y;
     private Float detectionRadiusInMeters;
+
 }
