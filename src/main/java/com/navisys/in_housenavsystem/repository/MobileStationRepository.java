@@ -1,7 +1,10 @@
 package com.navisys.in_housenavsystem.repository;
 
-import org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration;
+import com.navisys.in_housenavsystem.model.MobileStation;
 
-public interface MobileStationRepository extends JPARepository {
+import java.util.UUID;
 
+public interface MobileStationRepository extends JPARepository<MobileStation, UUID> {
+
+    MobileStation save(MobileStation mobileStation);
 }
