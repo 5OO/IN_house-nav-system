@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class InHouseNavSystemApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(InHouseNavSystemApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(InHouseNavSystemApplication.class, args);
+    }
 
 }
