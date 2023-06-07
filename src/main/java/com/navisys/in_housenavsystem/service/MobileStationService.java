@@ -1,11 +1,14 @@
 package com.navisys.in_housenavsystem.service;
 
 
+import com.navisys.in_housenavsystem.dto.MobileStationLocationDto;
 import com.navisys.in_housenavsystem.model.MobileStation;
 import com.navisys.in_housenavsystem.repository.BaseStationRepository;
 import com.navisys.in_housenavsystem.repository.MobileStationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.UUID;
 
 @Service
 public class MobileStationService {
@@ -20,5 +23,9 @@ public class MobileStationService {
 
     public MobileStation save(MobileStation mobileStation) {
         return mobileStationRepository.save(mobileStation);
+    }
+
+    public MobileStationLocationDto getLocation(UUID uuid) {
+        return null;
     }
 }
