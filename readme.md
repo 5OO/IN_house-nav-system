@@ -1,26 +1,40 @@
-Project Title
-A brief description of what the project does.
+# In-house Navigation System
+This is a **RESTful API** for an in-house navigation system built with Java 8 and Spring Boot.
 
-Description
-A more detailed explanation of the project. Explain why someone would want to use this, who it is for, what problem it solves, and what the main features are.
+## Description
+This API enables the tracking and location of mobile stations within a certain radius of base stations. This is particularly useful for in-house navigation systems, IoT location-based services, or any other application where tracking the location of devices is required.
 
-Prerequisites
-What things users need to install the software and how to install them. This could include programming languages, libraries, or any other dependencies.
+## Prerequisites
+You will need the following tools:
 
-Installation
-Step by step series of examples that tell you how to get a development environment running.
+* Java 8 or higher (JDK and JRE)
+* A text editor or an IDE (like IntelliJ IDEA or Eclipse)
+* Maven
 
-Usage
-Examples of how to use the program in action.
+## Installation
+Clone the repository: [git clone](https://github.com/username/in-house-nav-system.git) <br>
+Navigate to the project directory: _cd in-house-nav-system_ <br>
+Install the dependencies: _mvn install_ <br>
 
-Running the tests
-Explain how to run any tests for the system.
+## Usage
+To start the server, run:
 
-Built With
-List the major frameworks, libraries, or programming languages that the project uses.
+_mvn spring-boot:run_ <br>
+Then, open your web browser to *http://localhost:8080* to start using the API!
 
-Contributing
-If you are open to contributions, explain how other developers can contribute to the project.
+## Running the tests
+You can run the tests by using:
 
-License
-If your project is open-source, include a section about the license.
+_mvn test_
+
+## Built With
+* Java 8
+* Spring Boot
+* Maven
+
+## Contributing
+We welcome contributions! <br> 
+Please see our contributing guidelines for details.
+
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
